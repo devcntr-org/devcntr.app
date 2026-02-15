@@ -1,0 +1,18 @@
+{
+  "name": "devcntr-org",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.14.10",
+    "@solidjs/start": "^1.1.0",
+    "solid-js": "^1.9.5",
+    "vinxi": "^0.5.7"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
