@@ -1,15 +1,15 @@
 # Site generation prompt for design-capable AI
 
-Hand this document (or the "Prompt" section below) to a design-capable AI or human designer to generate the actual site design and content for devcntr.org.
+Hand this document (or the "Prompt" section below) to a design-capable AI or human designer to generate the actual site design and content for devcntr.app.
 
 ---
 
 ## Context
 
-- **Domain:** devcntr.org
-- **Repo:** https://github.com/the-dev-center/devcntr.org
+- **Domain:** devcntr.app
+- **Repo:** https://github.com/devcntr-app/devcntr.app-site
 - **Stack:** SolidStart (Solid.js full-stack), TypeScript. The app is already scaffolded; routes live in `src/routes/`, root layout in `src/app.tsx`, styles in `src/app.css` (or add a design system later).
-- **Related:** Dev Center is a developer tooling application (see https://github.com/the-dev-center/dev-center). The devcntr.org site is the project’s public-facing website.
+- **Related:** Dev Center is a developer tooling application (see https://github.com/devcntr-app/devcntr). The devcntr.app site is the project’s public-facing website.
 
 ---
 
@@ -24,7 +24,7 @@ Hand this document (or the "Prompt" section below) to a design-capable AI or hum
 
 ## Prompt (copy-paste for design AI)
 
-**Task:** Design and implement the public website for **Dev Center** at **devcntr.org**.
+**Task:** Design and implement the public website for **Dev Center** at **devcntr.app**.
 
 **Tech:** SolidStart (Solid.js), TypeScript. The repo is already set up with a barebones app: `src/app.tsx` (root layout), `src/routes/` (file-based routing), `src/app.css`. Add or replace with your design system (e.g. Tailwind, UnoCSS, or custom CSS). Do not change the framework.
 
@@ -42,5 +42,6 @@ Hand this document (or the "Prompt" section below) to a design-capable AI or hum
 
 ## After design is applied
 
-- Point the domain devcntr.org to the deployed site (e.g. Vercel, Netlify, or static export).
-- Optionally add a redirect or subpath (e.g. devcntr.org/docs) for the Antora docs build from the dev-center repo, if docs are served from this app.
+- Point the domain devcntr.app to the deployed site (e.g. Vercel, Netlify, or static export).
+- Optionally add a redirect or subpath (e.g. devcntr.app/docs) for the Antora docs build from the devcntr repo, if docs are served from this app.
+

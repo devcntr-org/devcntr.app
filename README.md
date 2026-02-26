@@ -1,26 +1,32 @@
-# devcntr.org
+# devcntr.app
 
-Public website for [Dev Center](https://github.com/the-dev-center/dev-center). Domain: **devcntr.org**.
+The application homepage and marketing site for [DevCntr](https://github.com/devcntr-org/devcntr).
 
-## Stack
+## 🌍 Domain
 
-- [SolidStart](https://start.solidjs.com/) (Solid.js full-stack)
-- TypeScript
-- pnpm
+- **URL:** [devcntr.app](https://devcntr.app)
 
-## Commands
+## 🛠️ Stack
 
-- `pnpm dev` — start dev server
-- `pnpm build` — production build
-- `pnpm start` — run production server
+- **Framework:** [SolidStart](https://start.solidjs.com/) (Solid.js full-stack)
+- **Engine:** [Vinxi](https://vinxi.vercel.app/)
+- **Language:** TypeScript
+- **Package Manager:** pnpm
 
-## Design and content
+## 🚀 Getting Started
 
-The app is currently a barebones SolidStart scaffold. To generate the actual site design and content, hand off **SITE-GENERATION-PROMPT.md** to a design-capable AI or designer.
+```bash
+pnpm install
+pnpm dev
+```
 
-## Repo layout
+## 📂 Project Structure
 
-- `src/app.tsx` — root layout
-- `src/routes/` — file-based routes (e.g. `index.tsx` = `/`)
-- `src/app.css` — global styles
-- `public/` — static assets
+- `src/` — Source code (scaffolded)
+- `public/` — Static assets
+- `app.config.ts` — SolidStart/Vinxi configuration
+- `DESIGN.md` — Design philosophy and guidelines
+
+## 📝 Site Generation
+
+To iterate on the design, provide the `SITE-GENERATION-PROMPT.md` to a design-capable AI.
