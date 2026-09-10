@@ -1,5 +1,6 @@
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "@solidjs/start/config";
+import { getPrerenderRoutes } from "./scripts/site-routes.mjs";
 
 export default defineConfig({
   ssr: false,
@@ -9,7 +10,7 @@ export default defineConfig({
   },
   router: {
     prerender: {
-      routes: ["/"],
+      routes: getPrerenderRoutes(),
     },
   },
   vite: {
